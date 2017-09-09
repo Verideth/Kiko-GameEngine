@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\main_files">
+      <UniqueIdentifier>{4df1ff6e-f40d-4d3f-a874-822a3cbd07ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\main_headers">
+      <UniqueIdentifier>{51905edc-872a-4158-be05-9b47934e823e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\noise">
+      <UniqueIdentifier>{f288dc3b-4352-4dca-87b8-3af42ef2246d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\noise">
+      <UniqueIdentifier>{c34ebbda-60eb-4506-a30a-60fd66d7f8e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{6f71b141-8d8b-405e-8a00-d7c3177b35d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\main_files</Filter>
+    </ClCompile>
+    <ClCompile Include="game_manager.cpp">
+      <Filter>Source Files\main_files</Filter>
+    </ClCompile>
+    <ClCompile Include="fast_noise.cpp">
+      <Filter>Source Files\noise</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>Source Files\main_files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game_manager.h">
+      <Filter>Header Files\main_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>Header Files\main_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="fast_noise.h">
+      <Filter>Header Files\noise</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>Header Files\main_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="cam.h">
+      <Filter>Header Files\main_headers</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Header Files\main_headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="core.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="core.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="bsp.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="bsp.vs">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
