@@ -167,6 +167,7 @@ bool KikoBSP::load_map(std::string file_name)
 
 		std::printf("size of vector = %i\n", this->vertices.size());
 
+		delete ents;
 		return true;
 	}
 	else
